@@ -1,10 +1,9 @@
 #include "HandleResize.h"
-//tempceshi
+
 HandleResize::HandleResize(QSize& size ,QObject *parent)
 	: IHandleImage(parent)
 {
 	m_size = size;
-	int temp = 1;
 }
 
 HandleResize::~HandleResize()
